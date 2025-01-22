@@ -1,0 +1,13 @@
+const Pi = 3.14;
+let radius = 6.378e6;
+document.write('The radius of the sphere is ' + radius);
+document.write('<br><br>');
+let C = 2 * Pi * radius;
+document.write('The circumference of the sphere is ' + C);
+document.write('<br><br>');
+let A = 4 * Pi * radius**2;
+document.write('The area of the sphere is ' + A);
+document.write('<br><br>');
+let V = (4/3) * Pi * radius**3;
+document.write('The volume of the sphere is ' + V);
+document.write('<br><br>');
